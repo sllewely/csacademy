@@ -24,3 +24,8 @@ Some sorting algorithms are called *stable* which means that if there are two or
 **Merge Sort** is more efficient.  It is a "divide and conquer" algorithm which means it splits the problem into small parts and solves each of the small parts recursively.  Beginning with a list, break it into n lists of size 1.  You see, now we have n sorted lists!
 
 Then, we merge two lists together at a time.  Compare the first element of one list with the first element of the second and take the smallest.  Increment the pointer to the smallest element on the chosen list and repeat.  Since you are always comparing the smallest element of each list each time, you don't need to compare all of list A against all of list B.  Now you have some number of lists of size 2.  After merging a second time, you have some number of lists of size 4, and then 8, and then 16, until you have one list of size n.
+
+
+---
+
+Implementing merge sort is homework.  Good recursion practice!
