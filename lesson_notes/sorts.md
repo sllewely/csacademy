@@ -32,8 +32,12 @@ Implementing merge sort is homework.  Good recursion practice!
 
 ## Day 2
 
-**Radix Sort** sorts by digits, for example from most significant digit to least signification digit.  What is the time complexity?
+How to find an element in a sorted list?  O(lgn)
 
 For fun: Bubble sort, bogosort.  What is the time complexity?
 
 **Quick Sort**
+
+
+**Radix Sort** sorts by digits, for example from most significant digit to least signification digit.  What is the time complexity?
+
