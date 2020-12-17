@@ -18,7 +18,13 @@ Weds Dec 9
 * Quick Sort
 * Worst case scenario?
 
-Weds Dec 16
+Weds Dec 16 SKIPPED
+
+Weds Dec 23
+* Linked List
+* Array of offsets, are all elements touched
+
+Weds Dec 30
 * What is a graph
 * First data structures (stack, queue, linked list)
 * Trees
