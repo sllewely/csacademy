@@ -6,7 +6,7 @@ class Node
   
     def initialize(value, pointer)
       @value = value
-      @pointer = nil
+      @pointer = pointer
     end
   
     def to_s
@@ -111,6 +111,22 @@ class LinkedList
       node = node.pointer
     end
   end
+
+  def pop
+    node = @head
+    @head = node.pointer
+    node.pointer = nil
+    return node
+  end
+  
+  def reverse
+    new_list = LinkedList.new
+    until @head.nil?
+      new_node = self.pop
+      new_list.prepend(new_node.value)
+    end
+    new_list
+  end
 end
 
 my_list = LinkedList.new
@@ -133,6 +149,9 @@ puts "-------------"
 puts my_list.find(2)
 puts "-------------"
 puts my_list.find_before(2)
+puts "-------------"
+puts "reversed list should be 3 2 10 1"
+puts my_list.reverse.print
 #   Implement LinkedList which has 
 # node has a value and a pointer that points to the next point Node = Value|Pointer
 #   * append (to the front where Head is)_
