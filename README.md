@@ -24,9 +24,21 @@ Weds Dec 23
 * Linked List
 * Array of offsets, are all elements touched
 
-Weds Dec 30
-* What is a graph
-* First data structures (stack, queue, linked list)
-* Trees
-* Binary search tree
-* ...
+Jan 5, 2021
+* stacks and queues
+
+Jan 13, 2021
+* Implement a LRU-cache
+https://www.geeksforgeeks.org/cache-memory-design/
+
+Jan 20, 2021
+* Implement a BST
+* Implement in-order tree traversal
+
+Jan 27, 2021
+* Print a BST layer by layer aka BSF
+
+Feb 1, 2021
+* Implement a trie trie with words
+* DFS auto-complete suggestions
+
